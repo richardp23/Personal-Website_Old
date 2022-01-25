@@ -28,7 +28,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3">
       <div class="container">
-        <a href="./" class="navbar-brand">Richard Perez</a>
+        <a href="." class="navbar-brand" aria-current="page">Richard Perez</a>
 
         <button
           class="navbar-toggler"
@@ -41,15 +41,13 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="./about.html" class="nav-link active" aria-current="page"
-                >About</a
-              >
+              <a href="/about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
               <a href="#projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="./resources/pdf/resume-20220122.pdf" class="nav-link"
+              <a href="/resume" class="nav-link"
                 >Resume</a
               >
             </li>
@@ -61,31 +59,36 @@
       </div>
     </nav>
 
-    <section class="bg-dark text-light p-5">
+    <section class="bg-dark text-light p-5 text-center text-sm-end">
       <div class="container">
-        <h1 class="text-warning">About Me</h1>
-        <p class="lead">
-          My name is Richard Perez, and I am 16 years old. Born and raised in
-          New York City.<br /><br />From a very young age, I have always been
-          interested in Computer Science. When I was 2 years old, I learned how
-          to use a computer. I was 6, I learned how to build and take apart
-          computers. Fast forward 10 years later, and my love for computers has
-          never been stronger. <br /><br />As of now, I've dabbled a bit in the
-          field of website-making.
-          <a href="https://www.scholarsnyc.com/" class="link-info">
-            I was even a part of my school's efforts to create a brand new
-            modern website!</a
-          >
-          <br /><br />In the future, I plan on becoming a full-time software
-          developer. I'm looking to develop my proficiency with Rust, which I
-          believe to be the future of software development.
-        </p>
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <img
+            class="img-fluid w-25 img-thumbnail align-self-center"
+            src="/img/headshot1.jpg"
+            alt=""
+          />
+          <div>
+            <h1 class="h2 text-warning">Your not-so-average developer.</h1>
+
+            <p>Hi! I'm Richard Perez, a 16 year old developer from New York.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-4 text-center">
+      <div class="container">
+        <div class="align-items-center">
+          <h2 class="mt-5">Who Am I?</h2>
+          <p class="lead">Read more about who I am here.</p>
+          <a href="about" class="btn btn-secondary">Read More</a>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
     <footer
-      class="py-1 bg-dark bg-gradient text-white text-center position-relative"
+      class="py-1 bg-dark bg-gradient text-white text-center position-relative bottom-0"
     >
       <hr />
       <div class="container">
